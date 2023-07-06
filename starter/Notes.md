@@ -48,3 +48,17 @@ Here five primitive data types in javascript.
 
 1. Undefined: value taken by a variable that is not defined (empty).
 1. Null, empty value
+
+1. Symbol (ES2015): a value that is unique and can not be changed
+1. Bigint(ES2020): larger integer than the Number data type can hold 
+
+Note 📝: Javascript also has the dynamic typing that by considering the data it will determine the type of it also. 
+
+- typeof:
+
+  is an operator used to show the type of any variable
+
+    example: 
+
+    let firstName ="Basit"
+    console.log(typeof firstName);
