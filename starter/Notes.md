@@ -62,3 +62,24 @@ Note 📝: Javascript also has the dynamic typing that by considering the data i
 
     let firstName ="Basit"
     console.log(typeof firstName);
+
+    > let, const and var 
+
+ Note 📝:  Mutating means reassigning value to a variable.
+    
+- let : is blocked scoped 
+ In two cases we let data type :
+ 1. if we want to declare a variable without value/ empty variable
+ 1. if we want to mutate variable later
+  
+- const : most recommended because mutating variables creates bugs in programme
+
+The value in const variable will not change later.
+1. mutating is not allowed for const data type / they are immutable.
+1. it needs to  have initial value/  or can not be assigned to empty variable.
+
+- var: is function scoped 
+
+  - not recommended
+
+var was being in use mostly before ES6, in ES6 let replaced it.
