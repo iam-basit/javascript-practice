@@ -1,6 +1,6 @@
 # Values and variables
 
-> values:
+> Values:
 
 values are the smallest units of information javascript.
 
@@ -83,3 +83,10 @@ The value in const variable will not change later.
   - not recommended
 
 var was being in use mostly before ES6, in ES6 let replaced it.
+
+> Operators
+
+operators are special symbols that are used to perform operation on operands.
+(+,-,*,%,/)
+
+
